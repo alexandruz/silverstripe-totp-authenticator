@@ -40,12 +40,13 @@
     eslint-plugin-jsx-a11y "^5.1.1"
     eslint-plugin-react "^7.3.0"
 
-"@silverstripe/react-injector@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@silverstripe/react-injector/-/react-injector-0.1.2.tgz#36e704da8cb893a5981b60ae3e42d1a0d3acb7be"
-  integrity sha512-71sD9/+3c8vLRW6B1isG0U451+rwZmWUXTjYCTkrmnZ68NnEFrsLgRwk1a2BJXg6vxZMhq9d7GOWa+Re00Mzhg==
+"@silverstripe/react-injector@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@silverstripe/react-injector/-/react-injector-0.2.1.tgz#b77f9c79c19a7c7e7f1898fafc75056ae9a3bb28"
+  integrity sha512-ZzhT3P7ieQtCFtB8FMrCLB2K6yd0yYkJ66pAujj1qiqIyuHQ7p0y+eWvQ97i/tEHL/iH/e2eSsA2fnZgNuAJkA==
   dependencies:
     classnames "^2.2.6"
+    core-js "^3.1.4"
     merge "^1.2.1"
     prop-types "^15.7.2"
     react "^16.8.3"
@@ -2155,6 +2156,11 @@ core-js@^2.4.0, core-js@^2.5.0:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
   integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
+
+core-js@^3.1.4:
+  version "3.16.2"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.16.2.tgz#3f485822889c7fc48ef463e35be5cc2a4a01a1f4"
+  integrity sha512-P0KPukO6OjMpjBtHSceAZEWlDD1M2Cpzpg6dBbrjFqFhBHe/BwhxaP820xKOjRn/lZRQirrCusIpLS/n2sgXLQ==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
